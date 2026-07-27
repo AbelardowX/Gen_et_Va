@@ -85,7 +85,7 @@ if section == "Home / Introduction":
 
     ### 3. Commodities Covered
 
-    ####Energy:
+    #### Energy:
 
     WTI Crude Oil
     Brent Crude Oil
@@ -475,5 +475,5 @@ elif section == "Key Findings":
     ##### Never insult the hand of nature that bore you by becoming common.
     ###### Greatness is awaken and the GOAT is within YOU.
 
-    ####### Abelardo
+    Abelardo
     """)
