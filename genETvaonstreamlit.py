@@ -46,7 +46,7 @@ from datetime import date
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
-import ASSETS as assets
+
 
 import warnings
 warnings.filterwarnings('ignore', category=RuntimeWarning)
@@ -54,7 +54,7 @@ warnings.filterwarnings('ignore', category=RuntimeWarning)
 # # Assets:
 
 
-assets = assets.Commodities('2010-01-01').data
+assets = Commodities('2010-01-01').data
 
 assets
 
