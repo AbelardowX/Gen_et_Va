@@ -63,15 +63,15 @@ if section == "Home / Introduction":
     st.subheader("Commodity Market Monitoring & Trade Support")
 
     st.markdown("""
-    1. Project Overview
+    ##1. Project Overview
 
 
 Gen et Va is a commodity market monitoring and trade support platform designed for energy, metals, and agricultural futures. It automates market monitoring by calculating risk metrics, cross-market relationships, and seasonality while providing an interactive dashboard for market analysis.
 
-The project was built to simulate the analytical workflow of a Trading Assistant or Middle Office Analyst in a commodity trading environment.
+The project was built to simulate the analytical workflow of a Trading Assistant or Middle Office Analyst in a commodity trading environmen##t.
 
 
-2. Objectives
+2. Obje###ctives
 
 The project aims to:
 
@@ -79,24 +79,24 @@ Monitor commodity markets automatically.
 Analyze volatility and risk.
 Compare relationships between commodities.
 Identify unusual market behaviour.
-Support market monitoring through interactive visualizations.
+Support market monitoring through interactive v##isualizations.
 
-3. Commodities Covered
+3. Com###modities Covered
 
 Energy:
 
 WTI Crude Oil
-Brent Crude Oil
-Natural Gas
+Brent ##Crude Oil
+Natural Gas##
 
 Metals:
 
 Gold
 Copper
 
-Soft Commodities:
+Soft Commod##ities:
 
-Coffee
+Cof###fee
 Cocoa
 Soybean
 
@@ -106,21 +106,21 @@ Soybean
 Market Analysis:
 
 Daily returns
-Log returns
+Log retu###rns
 Cumulative returns
 Rolling volatility
 
 Cross-Market Analysis:
 
-Brent-WTI spread
-Gold-Copper ratio
+Brent-###WTI spread
+Gold-Copper ratio###
 Correlation matrix
 
 Risk Monitoring:
 
 Drawdowns
 
-Seasonality:
+Seasonality###:
 
 Monthly returns
 Monthly volatility
@@ -128,12 +128,12 @@ Seasonal patterns
 
 Dashboard:
 
-Interactive charts
+Inter##active charts
 Market summary
 Risk overview
 Commodity comparison
 
-5. Technologies:
+5. Technologie##s:
 
 Python
 
@@ -157,22 +157,19 @@ During the analysis several interesting market behaviours were identified:
 
 Brent consistently traded at a premium to WTI.
 Natural Gas exhibited strong seasonal volatility.
-Gold and Copper showed periods of high correlation.
+Gold and Copper showed periods of high co##rrelation.
 Cocoa displayed the highest realized volatility amongst the analyzed commodities.
 
 7. Future Improvements:
 
-Incorporate physical market datasets.
+Incorporate physical market ##datasets.
 Add anomaly detection.
 Connect to live APIs.
 Include inventory and weather information.
 
 8. About this Project:
 
-This project was developed to strengthen my technical and market knowledge while preparing for Trading Assistant and Middle Office roles within commodity trading houses. It combines data engineering, market analysis, risk monitoring, and visualization into a single workflow.
-
-
-Remember: Never insult the hand of nature that bore you by becoming common.
+This project was developed to strengthen my technical and market knowledge while preparing for Trading Assistant and Middle Office roles within commodity trading houses.the hand of nature that bore you by becoming common.
 Greatness is awaken and the GOAT is within YOU.
 Abelardo
 he hand of nature that bore you by becoming common.
@@ -463,13 +460,15 @@ elif section == "Key Findings":
 
     • Cocoa is the most volatile soft commodity.
 
-    • Soybean returns tends to drop in August.
+    • Soybean returns tends to drop i
+     August.
 
     • Cocoa first drawdown was in February of 2026.
 
     • Cocoa volatility is 63% today.
 
-    • Commodity relationships provide useful market monitoring indicators for trading support.
+    • Commodity relationships provide useful market monitor
+    ing indicators for trading support.
     """)
 
    
