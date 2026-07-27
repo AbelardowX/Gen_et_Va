@@ -19,8 +19,6 @@ section = st.sidebar.radio(
     [
         "Home / Introduction",
         "Assets",
-        "Returns",
-        "Volatility",
         "Energy",
         "Metals",
         "Soft Commodities",
@@ -65,9 +63,116 @@ if section == "Home / Introduction":
     st.subheader("Commodity Market Monitoring & Trade Support")
 
     st.markdown("""
-    This project analyzes futures market across energy, metals, and agricultural commodities. 
-    It focuses on market monitoring, risk metrics, seasonality, cross-market relationships, 
-    and market intelligence for Trading Assistant and Middle Office workflows.
+    1. Project Overview
+    
+
+Gen et Va is a commodity market monitoring and trade support platform designed for energy, metals, and agricultural futures. It automates market monitoring by calculating risk metrics, cross-market relationships, and seasonality while providing an interactive dashboard for market analysi    s    .
+
+The project was built to simulate the analytical workflow of a Trading Assistant or Middle Office Analyst in a commodity trading environm    e    n    t.
+
+
+2. Obj    e    ctives
+
+The project         aims to:
+
+Monitor commodity markets aut    omatically.
+Analyze volatili    ty and risk.
+Compare relationships between     commodities.
+Identify unusual mar    ket behaviour.
+Support market monitoring through interactive     v    isualizations.
+
+3. Co    m    modities         Covered
+
+Ene    rgy:
+
+WTI Crud    e Oil
+Brent         Crude Oi    l    
+Nat    ural Ga    s    
+
+Metals:
+
+Gol    d    
+Coppe    r
+
+S    oft Comm    o    d    ities:
+
+Co    f    fee
+Cocoa
+Soybe    a    n
+
+
+4. Feat    ures
+
+Mark    et Analysis:
+
+Dai    ly returns
+Log ret    u    rns
+Cumulative returns        
+Rolling volatili    ty
+
+Cross-Market     Analysis:
+
+Brent    -    WTI spread
+Gold-    C    opper rati    o    
+Correlation         matrix
+
+Risk M    onitoring:
+
+Drawd    owns
+
+Seasonalit    y    :
+
+Monthl    y     returns
+Monthly v    olatility
+Seas    onal patterns    
+
+Dashboard:
+
+Inte    r    active charts
+Ma    r    ket sum    m    ary
+Ri    s    k over    v    iew
+Comm    o    dity co    m    parison
+
+    5    . Technolo    g    i    e    s:
+
+Python
+
+p    a    ndas
+
+NumPy
+
+yfinance
+
+Plotly
+
+Matplotlib
+
+Streamlit
+
+
+
+6. Ke    y     Insights:
+
+During the analysis several inter    esting market behaviours were identified:
+
+Brent     consistently traded at a premium to WTI.
+Natural G    as exhibited strong seasonal volatility.
+Gold and Copper showed periods of high c    o    rrelation.
+Cocoa displa    y    ed the highest realized volatility amo    ngst the analyzed commo    dities.
+
+7. Future I    mprovements:
+
+Incorporate physical market         datasets.
+Add anomaly     d    etection.
+Connect to live APIs.
+Include inventory and weather information.
+
+8. About this Project:
+
+This project was developed to strengthen my technical and market knowledge while preparing for Trading Assistant and Middle Office roles within commodity trading houses.the hand of nature that bore you by becoming common.
+Greatness is awaken and the GOAT is within YOU.
+Abelardo
+
     """)
 
 # ------------------------------------------------------------------
@@ -92,18 +197,15 @@ elif section == "Volatility":
     st.dataframe(volatility, use_container_width=True)
 
 # ------------------------------------------------------------------
-# ENERGY (your original content, untouched)
+# ENERGY 
 # ------------------------------------------------------------------
 elif section == "Energy":
     st.header("Energy")
 
     st.markdown("""
-    Energy commodities are strongly influenced by  
-    regional supply dynamics, transportation,  
-    weather and geopolitical events.  
+    Energy commodities are strongly influenced by regional supply dynamics, transportation, weather and geopolitical events.  
 
-    This section studies the relationships  
-    between Brent, WTI and Natural Gas.
+    This section studies the relationships between Brent, WTI and Natural Gas.
     """)
 
     energy = assets[['Brent', 'WTI', 'Natgas']].copy()
@@ -175,7 +277,7 @@ elif section == "Energy":
     """)
 
 # ------------------------------------------------------------------
-# METALS (your original content, untouched)
+# METALS 
 # ------------------------------------------------------------------
 elif section == "Metals":
     st.header("METALS")
@@ -304,7 +406,7 @@ elif section == "Soft Commodities":
     soybean_returns_month = returns.groupby(returns.index.month)['Soybean_Return'].mean().to_frame()
     st.dataframe(soybean_returns_month, use_container_width=True)
     st.plotly_chart(px.line(soybean_returns_month, title='Soybean Returns by Month'), use_container_width=True)
-    st.markdown("Soybean returns has tendency to drop in August.")
+    st.markdown("Soybean returns have a tendency to drop in August.")
 
     st.markdown("#### Volatility")
     soybean_volatility_month = volatility.groupby(volatility.index.month)['Soybean_Log_Return_Volatility-30D'].mean().to_frame()
@@ -319,7 +421,7 @@ elif section == "Soft Commodities":
     cocoa_cumulative_max = cocoa_cumulative_return.cummax()
     cocoa_drawdown = (cocoa_cumulative_return - cocoa_cumulative_max) / cocoa_cumulative_max
     st.plotly_chart(px.line(cocoa_drawdown, title='Cocoa Drawdown'), use_container_width=True)
-    st.markdown("Cocoa experienced its first deep drawdown in the lastest days of February of 2026.")
+    st.markdown("Cocoa experienced its first deep drawdown in the last days of February of 2026.")
 
     st.markdown("### Coffee")
     coffee_cumulative_return = (1 + returns['Coffee_Return']).cumprod()
@@ -364,8 +466,14 @@ elif section == "Key Findings":
     • Commodity relationships provide useful market monitoring indicators for trading support.
     """)
 
+   
+    
+    
     st.markdown("""
     ##### Never insult the hand of nature that bore you by becoming common.
-
     ###### Greatness is awaken and the GOAT is within YOU.
+    """)
+
+    st.markdown("""
+    Abelardo
     """)
