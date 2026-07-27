@@ -78,9 +78,13 @@ if section == "Home / Introduction":
     The project aims to:
 
     Monitor commodity markets automatically.
+    
     Analyze volatility and risk.
+    
     Compare relationships between commodities.
+    
     Identify unusual market behaviour.
+    
     Support market monitoring through interactive visualizations.
 
     ### 3. Commodities Covered
