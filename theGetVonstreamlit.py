@@ -63,15 +63,14 @@ if section == "Home / Introduction":
     st.subheader("Commodity Market Monitoring & Trade Support")
 
     st.markdown("""
-    ##1. Project Overview
+#### 1. Project Overview
 
 
 Gen et Va is a commodity market monitoring and trade support platform designed for energy, metals, and agricultural futures. It automates market monitoring by calculating risk metrics, cross-market relationships, and seasonality while providing an interactive dashboard for market analysis.
 
-The project was built to simulate the analytical workflow of a Trading Assistant or Middle Office Analyst in a commodity trading environmen##t.
+The project was built to simulate the analytical workflow of a Trading Assistant or Middle Office Analyst in a commodity trading environmen###### t.
 
-
-2. Obje###ctives
+ Obje###ctives
 
 The project aims to:
 
@@ -79,61 +78,57 @@ Monitor commodity markets automatically.
 Analyze volatility and risk.
 Compare relationships between commodities.
 Identify unusual market behaviour.
-Support market monitoring through interactive v##isualizations.
+Support market monitoring through interactive v###### isualmions.
 
-3. Com###modities Covered
+3. Com######## modities Covered
 
-Energy:
-
-WTI Crude Oil
-Brent ##Crude Oil
-Natural Gas##
+Energy: WTI Crude Oil
+Brent Cr##### ude Oil
+Natural Gas####### 
 
 Metals:
-
 Gold
-Copper
+Cop
 
-Soft Commod##ities:
+Soft Commod##iti#### es:
 
-Cof###fee
+Cof######### fee
 Cocoa
 Soybean
 
 
 4. Features
 
-Market Analysis:
+ket Analysis:
 
 Daily returns
-Log retu###rns
+Log retu######### rns
 Cumulative returns
-Rolling volatility
+Rollivolatility
 
-Cross-Market Analysis:
+Cross-Market Aysis:
 
-Brent-###WTI spread
-Gold-Copper ratio###
-Correlation matrix
+Brent-###WTI#####  spread
+Gold-Copper ratio######## 
+Correlatimatrix
 
 Risk Monitoring:
 
 Drawdowns
 
-Seasonality###:
+Seasonality######## :
 
-Monthly returns
+Monthly retus
 Monthly volatility
 Seasonal patterns
 
 Dashboard:
 
-Inter##active charts
-Market summary
+Inter###### active chartsarket summary
 Risk overview
 Commodity comparison
 
-5. Technologie##s:
+5. Technologie##### s:
 
 Python
 
@@ -155,24 +150,21 @@ Streamlit
 
 During the analysis several interesting market behaviours were identified:
 
-Brent consistently traded at a premium to WTI.
-Natural Gas exhibited strong seasonal volatility.
-Gold and Copper showed periods of high co##rrelation.
-Cocoa displayed the highest realized volatility amongst the analyzed commodities.
+Brent consistently traded at a premium to WTI.Natural Gas exhibited strong seasonal volatility.
+Gold and Copper showed periods of high co###### rrelation.
+Cocoa displayed the highest realized vol lity amongst the analyzed commodities.
 
 7. Future Improvements:
 
-Incorporate physical market ##datasets.
+Incorporate physical market ###### datasets.
 Add anomaly detection.
 Connect to live APIs.
 Include inventory and weather information.
 
 8. About this Project:
 
-This project was developed to strengthen my technical and market knowledge while preparing for Trading Assistant and Middle Office roles within commodity trading houses.the hand of nature that bore you by becoming common.
-Greatness is awaken and the GOAT is within YOU.
-Abelardo
-he hand of nature that bore you by becoming common.
+This project was developed to strengthen my technical and marke
+and of nature that bore you by becoming common.
 Greatness is awaken and the GOAT is within YOU.
 Abelardo
 
