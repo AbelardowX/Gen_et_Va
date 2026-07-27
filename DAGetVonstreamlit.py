@@ -88,18 +88,23 @@ if section == "Home / Introduction":
     #### Energy:
 
     WTI Crude Oil
+    
     Brent Crude Oil
+    
     Natural Gas
 
     #### Metals:
 
     Gold
+    
     Copper
 
     #### Soft Commodities:
 
     Coffee
+    
     Cocoa
+    
     Soybean
 
 
@@ -108,14 +113,19 @@ if section == "Home / Introduction":
     #### Market Analysis:
 
     Daily returns
+    
     Log returns
+    
     Cumulative returns
+    
     Rolling volatility
 
     #### Cross-Market Analysis:
 
     Brent-WTI spread
+    
     Gold-Copper ratio
+    
     Correlation matrix
 
     #### Risk Monitoring:
@@ -125,14 +135,19 @@ if section == "Home / Introduction":
     #### Seasonality:
 
     Monthly returns
+    
     Monthly volatility
+    
     Seasonal patterns
 
     #### Dashboard:
 
     Interactive charts
+    
     Market summary
+    
     Risk overview
+    
     Commodity comparison
 
     ### 5. Technologies:
@@ -158,15 +173,21 @@ if section == "Home / Introduction":
     During the analysis several interesting market behaviours were identified:
 
     Brent consistently traded at a premium to WTI.
+    
     Natural Gas exhibited strong seasonal volatility.
+    
     Gold and Copper showed periods of high correlation.
+    
     Cocoa displayed the highest realized volatility amongst the analyzed commodities.
 
     ### 7. Future Improvements:
 
     Incorporate physical market datasets.
+    
     Add anomaly detection.
+    
     Connect to live APIs.
+    
     Include inventory and weather information.
 
     ### 8. About this Project:
@@ -474,6 +495,9 @@ elif section == "Key Findings":
     st.markdown("""
     ##### Never insult the hand of nature that bore you by becoming common.
     ###### Greatness is awaken and the GOAT is within YOU.
+    """)
 
+
+    st.markdown("""
     Abelardo
     """)
