@@ -1,0 +1,10 @@
+pandas
+numpy
+yfinance
+matplotlib
+plotly
+scikit-learn
+xgboost
+statsmodels
+streamlit
+pandas_ta
